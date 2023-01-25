@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background: #1B244A;
+    color: #EEEEEE;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+.label {
+    margin-bottom: 15px;
+}
+
+.player {
+    width: 155px;
+    justify-content: space-around;
+    
+}
+
+#home-score, #guest-score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F94F6D;
+    background: #080001;
+    border-radius: 5px;
+    height: 120px;
+    font-size: 90px;
+    font-family: Cursed Timer ULiL;
+    line-height: 36px;
+    margin: 21px auto;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    font-family: Cursed Timer ULiL;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+    margin: 5.5px;
+}
+
+#newgame {
+    width: 10%;
+    height: 10%;
+    display: block;
+    margin: 0 auto;
+}
